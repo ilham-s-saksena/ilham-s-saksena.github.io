@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <!-- Tailwind CDN -->
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -43,12 +43,10 @@
   </style>
 </head>
 <body class="text-white/90 selection:bg-brand-400/20 relative overflow-x-hidden">
-  <!-- Floating WhatsApp -->
   <a id="wa-float" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin%2C%20saya%20ingin%20berlangganan%20XL%20SATU%20Fiber" class="fixed right-4 bottom-4 z-50 grid h-14 w-14 place-items-center rounded-full bg-emerald-500 shadow-glow hover:scale-[1.03] active:scale-95 transition">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-7 w-7 fill-white"><path d="M20 3.94A10 10 0 0 0 4.53 19.47L3 22l2.64-.69A10 10 0 1 0 20 3.94m-7.16 14a7.06 7.06 0 0 1-3.57-1l-.26-.16l-2.1.55l.56-2.05l-.17-.27a7.06 7.06 0 1 1 5.54 2.95m3.86-3.77c-.21-.11-1.2-.59-1.39-.66s-.32-.1-.45.1s-.52.66-.64.79s-.24.15-.45.05a5.73 5.73 0 0 1-3-2.63c-.23-.4.23-.37.66-1.23a.38.38 0 0 0 0-.37c-.05-.11-.45-1.09-.62-1.49s-.33-.34-.45-.35h-.38a.73.73 0 0 0-.53.25a2.21 2.21 0 0 0-.68 1.64a3.85 3.85 0 0 0 .8 2.05a8.77 8.77 0 0 0 3.36 2.85a3.85 3.85 0 0 0 2.33.72a2 2 0 0 0 1.29-.48a1.7 1.7 0 0 0 .38-1a1.46 1.46 0 0 0-.64-.92"/></svg>
   </a>
 
-  <!-- Header -->
   <header class="relative grain">
     <div class="absolute inset-0 bg-mesh opacity-70 -z-10"></div>
     <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
@@ -69,7 +67,6 @@
       <a href="#daftar" class="hidden md:flex rounded-full bg-white/10 px-4 py-2 text-sm hover:bg-white/20">Daftar</a>
     </nav>
 
-    <!-- Hero -->
     <section class="mx-auto max-w-7xl px-4 pb-20 pt-10 md:pt-16 lg:pt-20 flex flex-col md:flex-row items-center gap-10">
       <div class="w-full md:w-1/2">
         <div class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs text-white/70 ring-1 ring-white/10">
@@ -114,7 +111,6 @@
     </section>
   </header>
 
-  <!-- Paket -->
   <section id="paket" class="mx-auto max-w-7xl px-4 py-16">
     <div class="text-center max-w-2xl mx-auto">
       <h2 class="text-3xl md:text-4xl font-black">Pilih Paket Sesuai Kebutuhan</h2>
@@ -122,7 +118,6 @@
     </div>
 
     <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-      <!-- SMART -->
       <div class="relative rounded-3xl glass ring-1 ring-white/10 p-6 hover:ring-white/20 transition">
         <div class="text-xs uppercase tracking-widest text-white/60">SMART</div>
         <div class="mt-2 text-4xl font-extrabold">50 <span class="text-lg font-semibold text-white/60">Mbps</span></div>
@@ -136,7 +131,6 @@
           <button data-pack="SMART 50 Mbps" class="btn-daftar rounded-full bg-brand-500 px-4 py-2 text-black font-semibold">Daftar</button>
         </div>
       </div>
-      <!-- FAMILY -->
       <div class="relative rounded-3xl glass ring-1 ring-white/10 p-6 hover:ring-white/20 transition">
         <div class="text-xs uppercase tracking-widest text-white/60">FAMILY</div>
         <div class="mt-2 text-4xl font-extrabold">100 <span class="text-lg font-semibold text-white/60">Mbps</span></div>
@@ -150,7 +144,6 @@
           <button data-pack="FAMILY 100 Mbps" class="btn-daftar rounded-full bg-brand-500 px-4 py-2 text-black font-semibold">Daftar</button>
         </div>
       </div>
-      <!-- JOY PRO -->
       <div class="relative rounded-3xl glass ring-1 ring-white/10 p-6 hover:ring-white/20 transition">
         <div class="text-xs uppercase tracking-widest text-white/60">XL SATU JOY PRO</div>
         <div class="mt-2 text-4xl font-extrabold">150 <span class="text-lg font-semibold text-white/60">Mbps</span></div>
@@ -177,7 +170,6 @@
     </div>
   </section>
 
-  <!-- Cek Jangkauan / Daftar -->
   <section id="cek" class="relative mx-auto max-w-7xl px-4 py-16">
     <div class="absolute inset-0 -z-10 bg-mesh opacity-40"></div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
@@ -220,7 +212,6 @@
     </div>
   </section>
 
-  <!-- FAQ -->
   <section id="faq" class="mx-auto max-w-7xl px-4 py-16">
     <h2 class="text-3xl md:text-4xl font-black text-center">Bantuan & FAQ</h2>
     <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -260,7 +251,6 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer id="kontak" class="border-t border-white/10">
     <div class="mx-auto max-w-7xl px-4 py-10 grid md:grid-cols-2 gap-6 items-start">
       <div>
@@ -281,7 +271,6 @@
     </div>
   </footer>
 
-  <!-- Cookie banner -->
   <div id="cookie" class="fixed inset-x-0 bottom-0 z-40 mx-auto mb-4 w-[min(640px,92vw)] rounded-2xl glass ring-1 ring-white/10 p-4 hidden">
     <div class="flex items-start gap-3">
       <div class="mt-1 h-6 w-6 rounded-lg bg-white/10 grid place-items-center">🍪</div>
@@ -294,16 +283,13 @@
   </div>
 
   <script>
-    // year
     document.getElementById('year').textContent = new Date().getFullYear()
 
-    // cookie banner simple
     const COOKIE_KEY = 'cookie-ok-v1'
     const cookieEl = document.getElementById('cookie')
     if (!localStorage.getItem(COOKIE_KEY)) cookieEl.classList.remove('hidden')
     document.getElementById('cookie-accept').onclick = () => { localStorage.setItem(COOKIE_KEY, '1'); cookieEl.classList.add('hidden') }
 
-    // daftar buttons -> prefill WA
     const waBase = 'https://api.whatsapp.com/send?phone=6285780625205&text='
     document.querySelectorAll('.btn-daftar').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -313,7 +299,6 @@
       })
     })
 
-    // cek jangkauan form -> send WA
     document.getElementById('form-cek').addEventListener('submit', e => {
       e.preventDefault()
       const fd = new FormData(e.target)
