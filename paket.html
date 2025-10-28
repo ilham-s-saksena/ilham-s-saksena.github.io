@@ -6,307 +6,378 @@
   <title>Paket XL SATU – Internet Only, Joy & Star | SATU Partner</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <meta name="description" content="Daftar paket XL SATU: Internet Only, JOY (Internet + TV), dan STAR (Internet + TV + Streaming). Pilih kecepatan 20–1000 Mbps, harga terbaru. Daftar via WhatsApp." />
-  <meta name="theme-color" content="#0b0e14" />
+  <meta name="theme-color" content="#ffffff" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] },
-          colors: { brand: { 400:'#22d3ee',500:'#06b6d4' } },
-          boxShadow: { glow: '0 0 40px -10px rgba(34,211,238,0.45)' }
+          colors: {
+            brand: { 50:'#eef6ff',100:'#d9ecff',200:'#b3d7ff',300:'#85beff',400:'#4c9dff',500:'#0073ff',600:'#005fd1',700:'#004aa3',800:'#003a80',900:'#002a5c' },
+            skyxl: { 500:'#00C2FF' },
+            sunxl: { 500:'#FFD200' },
+            ink:   { 900:'#0b1324', 800:'#1b2437', 700:'#2a3550' },
+          },
+          boxShadow: {
+            glow: '0 20px 50px -20px rgba(0,115,255,0.35)',
+            glow2:'0 30px 70px -25px rgba(0,194,255,0.35)',
+          },
+          backgroundImage: {
+            mesh: 'radial-gradient(1200px 600px at 10% 10%, rgba(0,194,255,.18), transparent 40%), radial-gradient(900px 600px at 90% 20%, rgba(0,115,255,.14), transparent 45%), radial-gradient(1000px 600px at 50% 100%, rgba(255,210,0,.12), transparent 50%)',
+            glass:'linear-gradient(180deg, rgba(255,255,255,.88), rgba(255,255,255,.78))'
+          }
         }
       }
     }
   </script>
+
   <style>
-    html,body{background:#0b0e14;color:#fff}
-    .glass{background-image:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.04));backdrop-filter:blur(10px)}
-    .badge{font-size:.7rem;letter-spacing:.08em}
+    :root{ color-scheme: light }
+    html,body{ background:#f7fafc; color:#0b1324 }
+    .glass{ background-image:linear-gradient(180deg,rgba(255,255,255,.88),rgba(255,255,255,.78)); backdrop-filter:blur(10px) }
+    .ring-soft{ box-shadow: inset 0 0 0 1px rgba(15,23,42,.06) }
+    .text-soft{ color: rgba(17,24,39,.72) }
+    .text-softer{ color: rgba(17,24,39,.56) }
+    .badge{ font-size:.7rem; letter-spacing:.08em }
+    .accent-top{ position:relative }
+    .accent-top:before{
+      content:''; position:absolute; left:0; right:0; top:0; height:6px;
+      border-top-left-radius:1.5rem; border-top-right-radius:1.5rem;
+      background:linear-gradient(90deg,#0073ff, #00c2ff 50%, #ffd200)
+    }
+    .accent-underline{ background:linear-gradient(90deg,rgba(0,115,255,.35),rgba(0,194,255,.35),rgba(255,210,0,.35)); height:6px; border-radius:9999px; filter:blur(1px) }
   </style>
 
-<meta property="og:title" content="XL Home Fiber Optic | Internet Cepat dan Stabil">
-<meta property="og:description" content="Pilih paket internet XL Home Fiber Optic terbaik untuk rumah Anda. Koneksi cepat, harga hemat, layanan terpercaya.">
-<meta property="og:url" content="https://xlhomefiberoptic.com/">
-<meta property="og:site_name" content="XL Home Fiber Optic">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://xlhomefiberoptic.com/assets/favicon.ico">
+  <meta property="og:title" content="XL Home Fiber Optic | Internet Cepat dan Stabil">
+  <meta property="og:description" content="Pilih paket internet XL Home Fiber Optic terbaik untuk rumah Anda. Koneksi cepat, harga hemat, layanan terpercaya.">
+  <meta property="og:url" content="https://xlhomefiberoptic.com/">
+  <meta property="og:site_name" content="XL Home Fiber Optic">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://xlhomefiberoptic.com/assets/favicon.ico">
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="XL Home Fiber Optic | Internet Cepat dan Stabil">
-<meta name="twitter:description" content="Koneksi cepat dan stabil untuk rumah Anda dengan XL Home Fiber Optic.">
-<meta name="twitter:image" content="https://xlhomefiberoptic.com/assets/favicon.ico">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="XL Home Fiber Optic | Internet Cepat dan Stabil">
+  <meta name="twitter:description" content="Koneksi cepat dan stabil untuk rumah Anda dengan XL Home Fiber Optic.">
+  <meta name="twitter:image" content="https://xlhomefiberoptic.com/assets/favicon.ico">
 
-<link rel="canonical" href="https://xlhomefiberoptic.com/">
+  <link rel="canonical" href="https://xlhomefiberoptic.com/">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "XL Home Fiber Optic",
-  "url": "https://xlhomefiberoptic.com/",
-  "logo": "https://xlhomefiberoptic.com/assets/favicon.ico",
-  "sameAs": [
-    "https://www.facebook.com/xlhome",
-    "https://www.instagram.com/xlhomeid",
-    "https://www.youtube.com/@XLHomeID"
-  ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+62-857-8062-5205",
-    "contactType": "customer service",
-    "areaServed": "ID",
-    "availableLanguage": ["Indonesian"]
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "XL Home Fiber Optic",
+    "url": "https://xlhomefiberoptic.com/",
+    "logo": "https://xlhomefiberoptic.com/assets/favicon.ico",
+    "sameAs": [
+      "https://www.facebook.com/xlhome",
+      "https://www.instagram.com/xlhomeid",
+      "https://www.youtube.com/@XLHomeID"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+62-877-9760-0400",
+      "contactType": "customer service",
+      "areaServed": "ID",
+      "availableLanguage": ["Indonesian"]
+    }
   }
-}
-</script>
+  </script>
 
-<meta name="robots" content="index, follow">
-
+  <meta name="robots" content="index, follow">
 </head>
-<body class="text-white/90 selection:bg-brand-500/20">
+
+<body class="text-[rgba(17,24,39,.9)] selection:bg-brand-500/10 max-w-screen">
+
+  <div class="h-1.5 bg-gradient-to-r from-brand-500 via-skyxl-500 to-sunxl-500"></div>
+
   <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
     <div class="flex items-center gap-3">
-      <div class="h-9 w-9 rounded-2xl bg-white shadow-glow grid place-items-center">
-        <span class="font-extrabold text-black">
-          <img src="assets/favicon.ico" alt="logo xl">
-        </span>
+      <div class="h-9 w-9 rounded-2xl bg-white shadow-glow grid place-items-center ring-soft">
+        <img class="h-6 w-6" src="assets/favicon.ico" alt="logo xl">
       </div>
-      <span class="text-lg font-semibold tracking-wide">Partner</span>
+      <span class="text-lg font-semibold tracking-wide text-ink-900">Partner</span>
     </div>
-    <ul class="flex items-center gap-6 text-white/70">
-      <li><a href="index.html" class="hover:text-white hover:border-b-2 border-blue-600 transition-all">Home</a></li>
-      <li><a href="#" class="text-white border-b-2 border-blue-600 transition-all">Paket</a></li>
-      <li><a href="promo.html" class="hover:text-white hover:border-b-2 border-blue-600 transition-all">Promo</a></li>
-      <li class="hidden md:flex"><a href="kebijakan-privasi.html" class="hover:text-white hover:border-b-2 border-blue-600 transition-all">Kebijakan Privasi</a></li>
+    <ul class="flex items-center gap-6 text-soft">
+      <li><a href="index.html" class="hover:text-ink-900 hover:border-b-2 border-brand-500 transition-all">Home</a></li>
+      <li><a href="#" class="text-ink-900 border-b-2 border-brand-500/80 transition-all">Paket</a></li>
+      <li><a href="promo.html" class="hover:text-ink-900 hover:border-b-2 border-brand-500 transition-all">Promo</a></li>
+      <li class="hidden md:flex"><a href="kebijakan-privasi.html" class="hover:text-ink-900 hover:border-b-2 border-brand-500 transition-all">Kebijakan Privasi</a></li>
     </ul>
-    <a href="#hubungi" class="hidden md:flex rounded-full bg-white/10 px-4 py-2 text-sm hover:bg-white/20">Daftar</a>
+    <a href="#hubungi" class="hidden md:flex rounded-full bg-white px-4 py-2 text-sm ring-soft hover:bg-gray-50">Daftar</a>
   </nav>
 
-  <header class="text-center py-12 md:py-16">
-    <h1 class="text-4xl md:text-5xl font-black">Temukan Paket Internet Terbaik</h1>
-    <p class="text-white/70 max-w-2xl mx-auto mt-2">Pilih paket kecepatan internet sesuai kebutuhan. Tersedia Internet Only, paket JOY (Internet + TV), dan paket STAR (Internet + TV + Streaming).</p>
+  <header class="relative text-center py-12 md:py-16">
+    <div class="absolute inset-0 -z-10 bg-mesh opacity-40"></div>
+    <h1 class="text-4xl md:text-5xl font-black text-ink-900">Temukan Paket Internet Terbaik</h1>
+    <p class="text-soft max-w-2xl mx-auto mt-2">
+      Pilih paket kecepatan internet sesuai kebutuhan. Tersedia Internet Only, paket JOY (Internet + TV),
+      dan paket STAR (Internet + TV + Streaming).
+    </p>
+    <div class="mt-6 mx-auto w-[min(680px,92vw)] rounded-3xl glass ring-soft p-3">
+      <div class="grid grid-cols-3 gap-2 text-sm font-medium">
+        <a href="#internet-only" class="rounded-2xl bg-white px-4 py-2 ring-soft hover:bg-gray-50">Internet Only</a>
+        <a href="#joy" class="rounded-2xl bg-white px-4 py-2 ring-soft hover:bg-gray-50">JOY</a>
+        <a href="#star" class="rounded-2xl bg-white px-4 py-2 ring-soft hover:bg-gray-50">STAR</a>
+      </div>
+    </div>
   </header>
 
   <div class="max-w-7xl mx-auto px-4">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+    <div id="internet-only" class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <section class="md:col-span-1">
-        <h2 class="text-xl font-bold mb-3">Paket Internet Only XL SATU</h2>
-        <p class="text-white/70 text-sm">Harga internet unlimited; beberapa paket gratis biaya pemasangan. Pilih kecepatan 20–1000 Mbps.</p>
+        <h2 class="text-xl font-bold mb-3 text-ink-900">Paket Internet Only XL SATU</h2>
+        <p class="text-soft text-sm">Harga internet unlimited; beberapa paket gratis biaya pemasangan. Pilih kecepatan 20–1000 Mbps.</p>
       </section>
+
       <section class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Starter</div>
-          <h3 class="mt-2 text-3xl font-extrabold">20 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Starter</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">20 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>Biaya pemasangan Rp 100.000 + PPN</li>
             <li>Internet unlimited</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 189.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20STARTER%2020Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 189.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20STARTER%2020Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Value</div>
-          <h3 class="mt-2 text-3xl font-extrabold">30 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Value</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">30 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>Gratis biaya pemasangan</li>
             <li>Internet unlimited</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 229.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20VALUE%2030Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 229.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20VALUE%2030Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Smart</div>
-          <h3 class="mt-2 text-3xl font-extrabold">50 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Smart</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">50 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>Gratis biaya pemasangan</li>
             <li>Internet unlimited</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 245.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20SMART%2050Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 245.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20SMART%2050Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Family</div>
-          <h3 class="mt-2 text-3xl font-extrabold">100 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Family</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">100 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>Gratis biaya pemasangan</li>
             <li>Internet unlimited</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 319.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20FAMILY%20100Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 319.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20FAMILY%20100Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Superuser</div>
-          <h3 class="mt-2 text-3xl font-extrabold">150 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Superuser</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">150 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>Gratis biaya pemasangan</li>
             <li>Internet unlimited</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 369.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20SUPERUSER%20150Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 369.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20SUPERUSER%20150Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Ultimate</div>
-          <h3 class="mt-2 text-3xl font-extrabold">300 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Ultimate</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">300 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>Gratis biaya pemasangan</li>
             <li>Internet unlimited</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 400.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20ULTIMATE%20300Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 400.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20ULTIMATE%20300Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Ultra</div>
-          <h3 class="mt-2 text-3xl font-extrabold">600 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Ultra</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">600 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>Gratis biaya pemasangan</li>
             <li>Internet unlimited</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 500.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20ULTRA%20600Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 500.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20ULTRA%20600Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Extreme</div>
-          <h3 class="mt-2 text-3xl font-extrabold">1000 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Extreme</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">1000 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>Gratis biaya pemasangan</li>
             <li>Internet unlimited</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 900.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20EXTREME%201000Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 900.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20EXTREME%201000Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
       </section>
     </div>
 
-    <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div id="joy" class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
       <section class="md:col-span-1">
-        <h2 class="text-xl font-bold mb-3">Paket JOY (Internet & TV Kabel)</h2>
-        <p class="text-white/70 text-sm">Pilihan dengan channel TV dan bonus kuota HP.</p>
+        <h2 class="text-xl font-bold mb-3 text-ink-900">Paket JOY (Internet & TV Kabel)</h2>
+        <p class="text-soft text-sm">Pilihan dengan channel TV dan bonus kuota HP.</p>
       </section>
       <section class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Joy Value</div>
-          <h3 class="mt-2 text-3xl font-extrabold">100 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Joy Value</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">100 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>99 channel TV</li>
             <li>Bonus kuota XL 25GB</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 350.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20JOY%20VALUE%20100Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 350.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20JOY%20VALUE%20100Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Joy Pro</div>
-          <h3 class="mt-2 text-3xl font-extrabold">150 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Joy Pro</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">150 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>99 channel TV</li>
             <li>Bonus kuota XL 50GB</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 425.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20JOY%20PRO%20150Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 425.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20JOY%20PRO%20150Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Joy Premium</div>
-          <h3 class="mt-2 text-3xl font-extrabold">200 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Joy Premium</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">200 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>Smart Box 4K</li>
             <li>168 channel TV</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 675.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20JOY%20PREMIUM%20200Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 675.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20JOY%20PREMIUM%20200Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
       </section>
     </div>
 
-    <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div id="star" class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
       <section class="md:col-span-1">
-        <h2 class="text-xl font-bold mb-3">Paket STAR (Internet & TV & Streaming)</h2>
-        <p class="text-white/70 text-sm">Pilihan tertinggi dengan ratusan channel dan akses OTT populer.</p>
+        <h2 class="text-xl font-bold mb-3 text-ink-900">Paket STAR (Internet & TV & Streaming)</h2>
+        <p class="text-soft text-sm">Pilihan tertinggi dengan ratusan channel dan akses OTT populer.</p>
       </section>
       <section class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Star Value</div>
-          <h3 class="mt-2 text-3xl font-extrabold">300 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Star Value</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">300 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>190 channel TV</li>
             <li>Akses CATCHPLAY, VIU</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 985.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20STAR%20VALUE%20300Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 985.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20STAR%20VALUE%20300Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Star Pro</div>
-          <h3 class="mt-2 text-3xl font-extrabold">500 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Star Pro</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">500 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>192 channel TV</li>
             <li>Akses CATCHPLAY, VIU</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 1.850.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20STAR%20PRO%20500Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 1.850.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20STAR%20PRO%20500Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
-        <article class="glass rounded-3xl p-6 ring-1 ring-white/10">
-          <div class="badge inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-white/70 uppercase">Star Premium</div>
-          <h3 class="mt-2 text-3xl font-extrabold">1000 <span class="text-lg text-white/60">Mbps</span></h3>
-          <ul class="mt-3 text-sm text-white/80 space-y-1">
+
+        <article class="glass rounded-3xl p-6 ring-soft relative overflow-hidden">
+          <div class="absolute accent-top w-full left-0 top-0"></div>
+          <div class="badge inline-flex items-center rounded-full bg-white px-3 py-1 text-softer uppercase ring-soft">Star Premium</div>
+          <h3 class="mt-2 text-3xl font-extrabold text-ink-900">1000 <span class="text-lg text-softer">Mbps</span></h3>
+          <ul class="mt-3 text-sm text-soft space-y-1">
             <li>206 channel TV</li>
             <li>Akses CP+ LGP, VIU</li>
           </ul>
-          <p class="mt-5 text-2xl font-extrabold">Rp 4.500.000 <span class="text-sm font-medium text-white/60">/ bln*</span></p>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20STAR%20PREMIUM%201000Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-black px-5 py-3 font-semibold shadow-glow">Daftar</a>
+          <p class="mt-5 text-2xl font-extrabold text-ink-900">Rp 4.500.000 <span class="text-sm font-medium text-softer">/ bln*</span></p>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20daftar%20XL%20SATU%20STAR%20PREMIUM%201000Mbps" class="mt-4 inline-block rounded-full bg-brand-500 text-white px-5 py-3 font-semibold shadow-glow">Daftar</a>
         </article>
       </section>
     </div>
 
     <section class="mt-14">
-      <h2 class="text-2xl font-bold">Bantuan</h2>
+      <h2 class="text-2xl font-bold text-ink-900">Bantuan</h2>
       <div class="mt-4 grid md:grid-cols-2 gap-4">
-        <details class="glass rounded-2xl p-5 ring-1 ring-white/10">
+        <details class="glass rounded-2xl p-5 ring-soft border-l-4 border-brand-500">
           <summary class="cursor-pointer font-semibold list-none">Persyaratan berlangganan</summary>
-          <ul class="mt-3 list-disc pl-5 text-white/80 text-sm space-y-1">
+          <ul class="mt-3 list-disc pl-5 text-soft text-sm space-y-1">
             <li>Pastikan alamat terjangkau jaringan XL SATU (Fiber/Lite/BIZ)</li>
             <li>Isi formulir pendaftaran (online/alat sales/form cetak)</li>
             <li>Lampirkan identitas (KTP/SIM/KITAS)</li>
             <li>Siapkan kontak & email yang aktif</li>
           </ul>
         </details>
-        <details class="glass rounded-2xl p-5 ring-1 ring-white/10">
+        <details class="glass rounded-2xl p-5 ring-soft border-l-4 border-skyxl-500">
           <summary class="cursor-pointer font-semibold list-none">Apa itu XL SATU?</summary>
-          <p class="mt-3 text-white/80 text-sm">Layanan konvergensi: internet fiber super cepat + kuota HP keluarga dalam satu tagihan.</p>
+          <p class="mt-3 text-soft text-sm">Layanan konvergensi: internet fiber super cepat + kuota HP keluarga dalam satu tagihan.</p>
         </details>
-        <details class="glass rounded-2xl p-5 ring-1 ring-white/10">
+        <details class="glass rounded-2xl p-5 ring-soft border-l-4 border-sunxl-500">
           <summary class="cursor-pointer font-semibold list-none">Siapa yang bisa berlangganan?</summary>
-          <p class="mt-3 text-white/80 text-sm">Pelanggan baru dan pengguna XL Prioritas/prabayar yang berada dalam jangkauan jaringan XL SATU.</p>
+          <p class="mt-3 text-soft text-sm">Pelanggan baru dan pengguna XL Prioritas/prabayar yang berada dalam jangkauan jaringan XL SATU.</p>
         </details>
-        <details class="glass rounded-2xl p-5 ring-1 ring-white/10">
+        <details class="glass rounded-2xl p-5 ring-soft border-l-4 border-brand-500">
           <summary class="cursor-pointer font-semibold list-none">Apakah wajib nomor XL?</summary>
-          <p class="mt-3 text-white/80 text-sm">Kuota HP Sekeluarga hanya berlaku untuk nomor XL prabayar atau XL Prioritas yang didaftarkan.</p>
+          <p class="mt-3 text-soft text-sm">Kuota HP Sekeluarga hanya berlaku untuk nomor XL prabayar atau XL Prioritas yang didaftarkan.</p>
         </details>
       </div>
     </section>
 
-    <section id="hubungi" class="mt-12 glass rounded-3xl p-6 ring-1 ring-white/10">
-      <div class="grid md:grid-cols-2 gap-6 items-center">
-        <div>
-          <h2 class="text-2xl font-bold">Siap Berlangganan?</h2>
-          <p class="text-white/70 text-sm mt-1">Diskusikan paket terbaik untukmu. Klik tombol di samping untuk chat WA.</p>
-        </div>
-        <div class="md:justify-self-end">
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20berlangganan%20XL%20SATU" class="inline-flex items-center gap-2 rounded-full bg-emerald-500 px-5 py-3 font-semibold text-black shadow-glow">Chat WhatsApp</a>
-          <div class="text-sm text-white/70 mt-3">
-            <div><span class="text-white/50">Agent Sales:</span> Bayu Setyawan</div>
-            <div><span class="text-white/50">Area Layanan:</span> Jabodetabek</div>
-            <div><span class="text-white/50">WhatsApp:</span> 0857-8062-5205 &nbsp;|&nbsp; <span class="text-white/50">Email:</span> lorem@ipsum.id</div>
+    <section id="hubungi" class="mt-12">
+      <div class="rounded-3xl overflow-hidden shadow-glow2">
+        <div class="bg-gradient-to-r from-brand-500 via-skyxl-500 to-sunxl-500 p-[1px]">
+          <div class="glass rounded-3xl p-6 md:p-8 grid md:grid-cols-2 gap-6 items-center">
+            <div>
+              <h2 class="text-2xl font-bold text-ink-900">Siap Berlangganan?</h2>
+              <p class="text-soft text-sm mt-1">Diskusikan paket terbaik untukmu. Klik tombol di samping untuk chat WA.</p>
+            </div>
+            <div class="md:justify-self-end">
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20berlangganan%20XL%20SATU" class="inline-flex items-center gap-2 rounded-full bg-ink-900 px-5 py-3 font-semibold text-white shadow-glow">
+                Chat WhatsApp
+              </a>
+              <div class="text-sm text-soft mt-3">
+                <div><span class="text-softer">Agent Sales:</span> Bayu Setyawan</div>
+                <div><span class="text-softer">Area Layanan:</span> Jabodetabek</div>
+                <div><span class="text-softer">WhatsApp:</span> 0877-9760-0400 &nbsp;|&nbsp; <span class="text-softer">Email:</span> support@xlhomefiberoptic.com</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <p class="text-xs text-softer mt-3">*Syarat & ketentuan berlaku. Informasi paket mengikuti materi resmi rekanan; pastikan ketersediaan di alamatmu.</p>
     </section>
 
-    <p class="text-xs text-white/50 mt-6">*Syarat & ketentuan berlaku. Informasi paket mengikuti materi resmi rekanan; pastikan ketersediaan di alamatmu.</p>
   </div>
 
-  <footer class="border-t border-white/10 py-10 text-center text-white/70 text-sm mt-12">
+  <footer class="border-t border-[rgba(15,23,42,.08)] py-10 text-center text-soft text-sm mt-12 bg-white/70 backdrop-blur">
     © <span id="year"></span> SATU Partner. Authorized XL SATU Sales Agent.
   </footer>
 
