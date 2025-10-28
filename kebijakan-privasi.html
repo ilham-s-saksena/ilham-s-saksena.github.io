@@ -6,142 +6,205 @@
   <title>Kebijakan Privasi | SATU Partner</title>
   <meta name="description" content="Kebijakan privasi SATU Partner: jenis data yang dikumpulkan, penggunaan cookie, keamanan data, dan cara menghubungi kami." />
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <meta name="theme-color" content="#ffffff" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
-    tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','ui-sans-serif','system-ui'] }, colors: { brand: { 500:'#06b6d4' } }, boxShadow: { glow:'0 0 40px -10px rgba(34,211,238,.45)' } } } }
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter','ui-sans-serif','system-ui'] },
+          colors: {
+            brand: { 50:'#eef6ff',100:'#d9ecff',200:'#b3d7ff',300:'#85beff',400:'#4c9dff',500:'#0073ff',600:'#005fd1',700:'#004aa3',800:'#003a80',900:'#002a5c' },
+            skyxl: { 500:'#00C2FF' },
+            sunxl: { 500:'#FFD200' },
+            ink:   { 900:'#0b1324', 800:'#1b2437', 700:'#2a3550' },
+          },
+          boxShadow: {
+            glow:  '0 20px 50px -20px rgba(0,115,255,0.35)',
+            glow2: '0 30px 70px -25px rgba(0,194,255,0.35)',
+          },
+          backgroundImage: {
+            mesh:  'radial-gradient(1200px 600px at 10% 10%, rgba(0,194,255,.18), transparent 40%), radial-gradient(900px 600px at 90% 20%, rgba(0,115,255,.14), transparent 45%), radial-gradient(1000px 600px at 50% 100%, rgba(255,210,0,.12), transparent 50%)',
+            glass: 'linear-gradient(180deg, rgba(255,255,255,.88), rgba(255,255,255,.78))'
+          }
+        }
+      }
+    }
   </script>
+
   <style>
-    html,body{background:#0b0e14;color:#fff}
-    .glass{background-image:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.04));backdrop-filter:blur(10px)}
+    :root{ color-scheme: light }
+    html,body{ background:#f7fafc; color:#0b1324 }
+    .glass{ background-image:linear-gradient(180deg,rgba(255,255,255,.88),rgba(255,255,255,.78)); backdrop-filter:blur(10px) }
+    .ring-soft{ box-shadow: inset 0 0 0 1px rgba(15,23,42,.06) }
+    .text-soft{ color: rgba(17,24,39,.72) }
+    .text-softer{ color: rgba(17,24,39,.56) }
+    .accent-top{ position:relative }
+    .accent-top:before{
+      content:''; position:absolute; left:0; right:0; top:0; height:6px;
+      border-top-left-radius:1.5rem; border-top-right-radius:1.5rem;
+      background:linear-gradient(90deg,#0073ff, #00c2ff 50%, #ffd200)
+    }
+    .content h2{ font-size:1.125rem; line-height:1.5rem; font-weight:700; margin-top:1.25rem; margin-bottom:.5rem; color:#0b1324 }
+    .content p{ margin:.5rem 0; color:rgba(17,24,39,.8) }
+    .content ul{ padding-left:1.25rem; color:rgba(17,24,39,.8) }
+    .content li{ margin:.35rem 0 }
+    .content .indent{ text-indent:2rem }
   </style>
 
-<meta property="og:title" content="XL Home Fiber Optic | Internet Cepat dan Stabil">
-<meta property="og:description" content="Pilih paket internet XL Home Fiber Optic terbaik untuk rumah Anda. Koneksi cepat, harga hemat, layanan terpercaya.">
-<meta property="og:url" content="https://xlhomefiberoptic.com/">
-<meta property="og:site_name" content="XL Home Fiber Optic">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://xlhomefiberoptic.com/assets/favicon.ico">
+  <meta property="og:title" content="XL Home Fiber Optic | Internet Cepat dan Stabil">
+  <meta property="og:description" content="Pilih paket internet XL Home Fiber Optic terbaik untuk rumah Anda. Koneksi cepat, harga hemat, layanan terpercaya.">
+  <meta property="og:url" content="https://xlhomefiberoptic.com/">
+  <meta property="og:site_name" content="XL Home Fiber Optic">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://xlhomefiberoptic.com/assets/favicon.ico">
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="XL Home Fiber Optic | Internet Cepat dan Stabil">
-<meta name="twitter:description" content="Koneksi cepat dan stabil untuk rumah Anda dengan XL Home Fiber Optic.">
-<meta name="twitter:image" content="https://xlhomefiberoptic.com/assets/favicon.ico">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="XL Home Fiber Optic | Internet Cepat dan Stabil">
+  <meta name="twitter:description" content="Koneksi cepat dan stabil untuk rumah Anda dengan XL Home Fiber Optic.">
+  <meta name="twitter:image" content="https://xlhomefiberoptic.com/assets/favicon.ico">
 
-<link rel="canonical" href="https://xlhomefiberoptic.com/">
+  <link rel="canonical" href="https://xlhomefiberoptic.com/">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "XL Home Fiber Optic",
-  "url": "https://xlhomefiberoptic.com/",
-  "logo": "https://xlhomefiberoptic.com/assets/favicon.ico",
-  "sameAs": [
-    "https://www.facebook.com/xlhome",
-    "https://www.instagram.com/xlhomeid",
-    "https://www.youtube.com/@XLHomeID"
-  ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+62-857-8062-5205",
-    "contactType": "customer service",
-    "areaServed": "ID",
-    "availableLanguage": ["Indonesian"]
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "XL Home Fiber Optic",
+    "url": "https://xlhomefiberoptic.com/",
+    "logo": "https://xlhomefiberoptic.com/assets/favicon.ico",
+    "sameAs": [
+      "https://www.facebook.com/xlhome",
+      "https://www.instagram.com/xlhomeid",
+      "https://www.youtube.com/@XLHomeID"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+62-877-9760-0400",
+      "contactType": "customer service",
+      "areaServed": "ID",
+      "availableLanguage": ["Indonesian"]
+    }
   }
-}
-</script>
+  </script>
 
-<meta name="robots" content="index, follow">
-
+  <meta name="robots" content="index, follow">
 </head>
-<body class="text-white/90">
+
+<body class="text-[rgba(17,24,39,.9)] selection:bg-brand-500/10 max-w-screen">
+
+  <div class="h-1.5 bg-gradient-to-r from-brand-500 via-skyxl-500 to-sunxl-500"></div>
+
   <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
     <div class="flex items-center gap-3">
-      <div class="h-9 w-9 rounded-2xl bg-white shadow-glow grid place-items-center">
-        <span class="font-extrabold text-black"><img src="assets/favicon.ico" alt="logo xl"></span>
+      <div class="h-9 w-9 rounded-2xl bg-white shadow-glow grid place-items-center ring-soft">
+        <img class="h-6 w-6" src="assets/favicon.ico" alt="logo xl">
       </div>
-      <span class="text-lg font-semibold tracking-wide">Partner</span>
+      <span class="text-lg font-semibold tracking-wide text-ink-900">Partner</span>
     </div>
-    <ul class="flex items-center gap-6 text-white/70">
-      <li><a href="index.html" class="hover:text-white hover:border-b-2 border-blue-600 transition-all">Home</a></li>
-      <li><a href="paket.html" class="hover:text-white hover:border-b-2 border-blue-600 transition-all">Paket</a></li>
-      <li><a href="promo.html" class="hover:text-white hover:border-b-2 border-blue-600 transition-all">Promo</a></li>
-      <li class="hidden md:flex"><a href="kebijakan-privasi.html" class="hover:text-white hover:border-b-2 border-blue-600 transition-all">Kebijakan Privasi</a></li>
+    <ul class="flex items-center gap-6 text-soft">
+      <li><a href="index.html" class="hover:text-ink-900 hover:border-b-2 border-brand-500 transition-all">Home</a></li>
+      <li><a href="paket.html" class="hover:text-ink-900 hover:border-b-2 border-brand-500 transition-all">Paket</a></li>
+      <li><a href="promo.html" class="hover:text-ink-900 hover:border-b-2 border-brand-500 transition-all">Promo</a></li>
+      <li class="hidden md:flex"><a href="kebijakan-privasi.html" class="text-ink-900 border-b-2 border-brand-500/80 transition-all">Kebijakan Privasi</a></li>
     </ul>
-    <a href="#hubungi" class="hidden md:flex rounded-full bg-white/10 px-4 py-2 text-sm hover:bg-white/20">Daftar</a>
+    <a href="#hubungi" class="hidden md:flex rounded-full bg-white px-4 py-2 text-sm ring-soft hover:bg-gray-50">Daftar</a>
   </nav>
 
-  <main class="max-w-3xl mx-auto px-4 pb-20">
-    <header class="py-10">
-      <nav class="text-sm text-white/60"><a href="index.html" class="hover:text-white hover:border-b-2 border-blue-600">Home</a> / <span class="text-blue-400">Kebijakan Privasi</span></nav>
-      <h1 class="text-4xl font-black mt-2">Kebijakan Privasi</h1>
-      <div class="text-white/60 mt-2">Terakhir diperbarui: <b>26 Oktober 2025</b></div>
-    </header>
+  <header class="relative max-w-7xl mx-auto px-4 pt-8 pb-6">
+    <div class="absolute inset-0 -z-10 bg-mesh opacity-40"></div>
+    <nav class="text-sm text-softer"><a href="index.html" class="hover:text-ink-900">Home</a> / <span>Kebijakan Privasi</span></nav>
+    <h1 class="text-4xl font-black mt-2 text-ink-900">Kebijakan Privasi</h1>
+    <div class="text-softer mt-2">Terakhir diperbarui: <b>26 Oktober 2025</b></div>
+  </header>
 
-    <section class="prose prose-invert max-w-none">
-      <h2 class="text-xl font-bold mb-2 mt-4">Pendahuluan</h2>
-      <p class="text-justify indent-8 mb-2">Privasi Anda penting bagi kami. Dokumen ini menjelaskan cara kami mengumpulkan, menggunakan, dan melindungi data pribadi saat Anda menggunakan situs kami.</p>
+  <main class="max-w-4xl mx-auto px-4 pb-20">
+    <section class="glass rounded-3xl p-6 md:p-8 ring-soft accent-top">
+      <div class="content">
+        <h2>Pendahuluan</h2>
+        <p class="indent">Privasi Anda penting bagi kami. Dokumen ini menjelaskan cara kami mengumpulkan, menggunakan, dan melindungi data pribadi saat Anda menggunakan situs kami.</p>
 
-      <h2 class="text-xl font-bold mb-2 mt-4">Informasi yang Kami Kumpulkan</h2>
-      <ul class="list-disc ml-4 mb-2">
-        <li><b>Data yang Anda Berikan:</b> Nama, alamat, dan nomor telepon yang diisi pada formulir pemesanan/cek jangkauan via WhatsApp.</li>
-        <li><b>Data Penggunaan:</b> Informasi interaksi Anda dengan situs (mis. halaman yang dikunjungi) yang dapat direkam melalui cookie untuk peningkatan layanan.</li>
-        <li><b>Data Lokasi:</b> Jika Anda memberi izin di browser, data lokasi digunakan untuk membantu pengecekan jangkauan.</li>
-      </ul>
+        <h2>Informasi yang Kami Kumpulkan</h2>
+        <ul>
+          <li><b>Data yang Anda Berikan:</b> Nama, alamat, dan nomor telepon yang diisi pada formulir pemesanan/cek jangkauan via WhatsApp.</li>
+          <li><b>Data Penggunaan:</b> Informasi interaksi Anda dengan situs (mis. halaman yang dikunjungi) yang dapat direkam melalui cookie untuk peningkatan layanan.</li>
+          <li><b>Data Lokasi:</b> Jika Anda memberi izin di browser, data lokasi digunakan untuk membantu pengecekan jangkauan.</li>
+        </ul>
 
-      <h2 class="text-xl font-bold mb-2 mt-4">Bagaimana Kami Menggunakan Informasi</h2>
-      <ul class="list-disc ml-4 mb-2">
-        <li>Memproses permintaan berlangganan dan follow‑up layanan.</li>
-        <li>Menjawab pertanyaan dan memberikan dukungan pelanggan.</li>
-        <li>Menganalisis dan meningkatkan fungsionalitas situs.</li>
-      </ul>
+        <h2>Bagaimana Kami Menggunakan Informasi</h2>
+        <ul>
+          <li>Memproses permintaan berlangganan dan tindak lanjut layanan.</li>
+          <li>Menjawab pertanyaan dan memberikan dukungan pelanggan.</li>
+          <li>Menganalisis dan meningkatkan fungsionalitas situs.</li>
+        </ul>
 
-      <h2 class="text-xl font-bold mb-2 mt-4">Penggunaan Cookie</h2>
-      <p class="text-justify indent-8 mb-2">Kami memakai cookie untuk menyimpan preferensi (misalnya persetujuan banner cookie) dan memahami penggunaan situs. Anda dapat menonaktifkan cookie di pengaturan browser; sebagian fitur mungkin terpengaruh.</p>
+        <h2>Penggunaan Cookie</h2>
+        <p class="indent">Kami memakai cookie untuk menyimpan preferensi (misalnya persetujuan banner cookie) dan memahami penggunaan situs. Anda dapat menonaktifkan cookie di pengaturan browser; sebagian fitur mungkin terpengaruh.</p>
 
-      <h2 class="text-xl font-bold mb-2 mt-4">Keamanan Data</h2>
-      <p class="text-justify indent-8 mb-2">Kami menerapkan langkah wajar untuk melindungi data dari akses tidak sah. Namun, transmisi internet tidak sepenuhnya bebas risiko.</p>
+        <h2>Keamanan Data</h2>
+        <p class="indent">Kami menerapkan langkah wajar untuk melindungi data dari akses tidak sah. Namun, transmisi internet tidak sepenuhnya bebas risiko.</p>
 
-      <h2 class="text-xl font-bold mb-2 mt-4">Hak & Pilihan Anda</h2>
-      <ul class="list-disc ml-4 mb-2">
-        <li>Anda dapat meminta pembaruan atau penghapusan data pribadi yang Anda berikan kepada kami.</li>
-        <li>Anda dapat menolak cookie melalui pengaturan browser.</li>
-      </ul>
+        <h2>Dasar Pemrosesan Data</h2>
+        <ul>
+          <li>Persetujuan Anda saat mengirim formulir.</li>
+          <li>Kepentingan yang sah untuk meningkatkan layanan dan pengalaman pengguna.</li>
+          <li>Kewajiban hukum bila diperlukan.</li>
+        </ul>
 
-      <h2 class="text-xl font-bold mb-2 mt-4">Kontak</h2>
-      <p class="text-justify indent-8 mb-2">Untuk pertanyaan terkait kebijakan ini, hubungi kontak yang tertera di bagian bawah halaman.</p>
+        <h2>Berbagi Data</h2>
+        <ul>
+          <li>Kepada pihak penyedia layanan (mis. platform komunikasi) hanya sebatas kebutuhan operasional.</li>
+          <li>Kepada pihak berwenang jika diwajibkan oleh hukum.</li>
+        </ul>
 
-      <h2 class="text-xl font-bold mb-2 mt-4">Bantuan</h2>
-      <ul class="list-disc ml-4 mb-2">
-        <li><b>Persyaratan berlangganan:</b> Lokasi terjangkau jaringan XL SATU (Fiber/Lite/BIZ), mengisi formulir, identitas (KTP/SIM/KITAS), dan kontak/email aktif.</li>
-        <li><b>Apa itu XL SATU?</b> Layanan konvergensi internet fiber cepat + kuota HP keluarga dengan satu tagihan.</li>
-        <li><b>Siapa yang bisa berlangganan?</b> Pelanggan baru atau pengguna XL Prioritas/prabayar di area terjangkau.</li>
-        <li><b>Nomor XL untuk Kuota HP Sekeluarga?</b> Berlaku untuk nomor XL prabayar atau XL Prioritas yang didaftarkan.</li>
-      </ul>
+        <h2>Hak & Pilihan Anda</h2>
+        <ul>
+          <li>Meminta pembaruan atau penghapusan data pribadi yang Anda berikan.</li>
+          <li>Menolak cookie melalui pengaturan browser.</li>
+        </ul>
+
+        <h2>Kontak</h2>
+        <p class="indent">Untuk pertanyaan terkait kebijakan ini, hubungi kontak pada bagian “Butuh Bantuan?” di bawah.</p>
+      </div>
     </section>
 
-    <section id="hubungi" class="mt-12 glass rounded-3xl p-6 ring-1 ring-white/10">
-      <div class="grid md:grid-cols-2 gap-6 items-center">
-        <div>
-          <h2 class="text-2xl font-bold">Butuh Bantuan?</h2>
-          <p class="text-white/70 text-sm mt-1">Tanyakan apapun tentang kebijakan privasi atau pendaftaran.</p>
-        </div>
-        <div class="md:justify-self-end">
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=6285780625205&text=Halo%20Admin,%20saya%20ingin%20menanyakan%20kebijakan%20privasi" class="inline-flex items-center gap-2 rounded-full bg-emerald-500 px-5 py-3 font-semibold text-black shadow-glow">Chat WhatsApp</a>
-          <div class="text-sm text-white/70 mt-3">
-            <div><span class="text-white/50">Agent Sales:</span> Bayu Setyawan</div>
-            <div><span class="text-white/50">Area Layanan:</span> Jabodetabek</div>
-            <div><span class="text-white/50">WhatsApp:</span> 0857-8062-5205 &nbsp;|&nbsp; <span class="text-white/50">Email:</span> support@xlsatuwifi.web.id</div>
+    <section id="hubungi" class="mt-12">
+      <div class="rounded-3xl overflow-hidden shadow-glow2">
+        <div class="bg-gradient-to-r from-brand-500 via-skyxl-500 to-sunxl-500 p-[1px]">
+          <div class="glass rounded-3xl p-6 md:p-8 grid md:grid-cols-2 gap-6 items-center">
+            <div>
+              <h2 class="text-2xl font-bold text-ink-900">Butuh Bantuan?</h2>
+              <p class="text-soft text-sm mt-1">Tanyakan apapun tentang kebijakan privasi atau pendaftaran.</p>
+            </div>
+            <div class="md:justify-self-end">
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=6287797600400&text=Halo%20Admin,%20saya%20ingin%20menanyakan%20kebijakan%20privasi" class="inline-flex items-center gap-2 rounded-full bg-ink-900 px-5 py-3 font-semibold text-white shadow-glow">
+                Chat WhatsApp
+              </a>
+              <div class="text-sm text-soft mt-3">
+                <div><span class="text-softer">Agent Sales:</span> Bayu Setyawan</div>
+                <div><span class="text-softer">Area Layanan:</span> Jabodetabek</div>
+                <div><span class="text-softer">WhatsApp:</span> 0877-9760-0400 &nbsp;|&nbsp; <span class="text-softer">Email:</span> support@xlhomefiberoptic.com</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
   </main>
 
-  <footer class="border-t border-white/10 py-10 text-center text-white/70 text-sm mt-12">© <span id="year"></span> SATU Partner. Authorized XL SATU Sales Agent.</footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  <footer class="border-t border-[rgba(15,23,42,.08)] py-10 text-center text-soft text-sm mt-12 bg-white/70 backdrop-blur">
+    © <span id="year"></span> SATU Partner. Authorized XL SATU Sales Agent.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear()
+  </script>
 </body>
 </html>
